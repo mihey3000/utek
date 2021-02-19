@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ютэк-Нягань</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">  
+    <div class="modal-callback hidden">
+      <div class="wrap">
+        <h2>Мы вам перезвоним</h2>
+        <form action="#" id="callback-form">
+          <input class="phone" name="tel" type="tel" placeholder="Ваш номер телефона">
+          <button class="button">Отправить</button>
+        </form>
+        <span>Нажимая кнопку вы соглашаетесь на обработку персональных данных</span>        
+        <div class="close-callback"></div>
+      </div>
+      <!-- /.wrap -->
+    </div>
+    <!-- /.modal-callback -->
+    <div class="modal hidden">
+      <div class="mobile-menu">
+        <h2>Меню</h2>
+        <ul>
+          <li><a class="menu" href="index.html">Главная</a></li>
+          <li><a class="menu" href="#services">Услуги</a></li>
+          <li><a class="menu" href="#about">О компании</a></li>
+          <li><a class="menu" href="#contacts-title">Контакты</a></li>
+          <li><a href="materials.html">Скачать документы</a></li>
+        </ul>
+          <a class="phone" href="tel:+73467261000">+7 (34672) 6-10-00</a>
+          <div class="border-btn">Заказать звонок</div>
+          <!-- /.border-btn -->
+        <div class="close"></div>
+      </div>
+      <!-- /.mobile-menu -->
+    </div>
+    <!-- /.modal -->   
+    <div class="container">
+      <div class="nav">
+        <div class="nav-wrap">
+          <div class="logo-wrap">
+            <div class="name">АО «Ютэк-Нягань»</div>
+            <span>Энергетическая компания</span>
+          </div>
+          <!-- /.logo-wrap -->
+          <div class="top-menu">
+            <ul>
+              <li><a class="menu" href="index.html">Главная</a></li>
+              <li><a class="menu" href="#services">Услуги</a></li>
+              <li><a class="menu" href="#about">О компании</a></li>
+              <li><a class="menu" href="#contacts-title">Контакты</a></li>
+              <li><a href="materials.html">Скачать документы</a></li>
+            </ul>
+          </div>
+          <!-- /.top-menu -->
+          <div class="contacts">
+            <a href="tel:+73467261000">+7 (34672) 6-10-00</a>
+            <div class="border-btn">Заказать звонок</div>
+          </div>
+          <!-- /.contacts --> 
+          <div class="burger hidden"></div>  
+        </div>
+        <!-- /.nav-wrap -->
+      </div>
+      <!-- /.nav -->
+    </div>
+    <!-- /.container -->
+  </header>
+
+  <section class="main-section">
+    <div class="container">
+      <h1>Комплексное обслуживание потребителей электроэнергии в городе Нягань</h1>
+      <span>Для юридических и физических лиц</span>
+    </div>
+  </section>
+  <!-- /.main-section -->
+
+  <div class="container">
+    <div class="wrap-triggers">
+      <div class="triggers">
+        <div class="trigger">
+          <div class="num">16</div>
+          <div class="descr">лет на рынке услуг</div>
+        </div>
+        <!-- /.trigger -->
+        <div class="trigger">
+          <div class="num">88</div>
+          <div class="descr">специалистов в штате</div>
+        </div>
+        <!-- /.trigger -->
+        <div class="trigger">
+          <div class="num">2345</div>
+          <div class="descr">проектов выполнено</div>
+        </div>
+        <!-- /.trigger -->
+        <div class="trigger">
+          <div class="num">45</div>
+          <div class="descr">единиц спецтехники</div>
+        </div>
+        <!-- /.trigger -->
+      </div>
+      <!-- /.triggers -->
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <section class="services-section">
+    <div class="container">
+      <h2 id="services">Мы проводим обслуживание</h2>
+      <div class="wrap">
+        <div class="item">
+          <img src="img/item-1.png" class="item-image" alt="картинка">
+          <span>Воздушных линий</span>
+        </div>
+        <!-- /.item -->
+        <div class="item">        
+          <img src="img/item-2.png" class="item-image" alt="картинка">
+          <span>Опор линий электропередач </span>
+        </div>
+        <!-- /.item -->
+        <div class="item">
+          <img src="img/item-3.png" class="item-image" alt="картинка">
+          <span>Трансформаторных подстанций</span>
+        </div>
+        <!-- /.item -->
+        <div class="item">
+          <img src="img/item-4.png" class="item-image" alt="картинка">
+          <span>Кабельных линий</span>
+        </div>
+        <!-- /.item -->
+        <div class="item">
+          <img src="img/item-5.png" class="item-image" alt="картинка">
+          <span>Релейной защиты и автоматики</span>
+        </div>
+        <!-- /.item -->
+      </div>
+    </div>
+  </section>
+  <!-- /.services-section -->
+
+  <section class="consultation-section">
+    <div class="container">
+      <h2>Получите консультацию</h2>
+      <form action="#" class="consultation-form">
+        <input type="text" name="name" placeholder="Ваше имя">
+        <input type="text" name="tel" id="phone" placeholder="Номер телефона">
+        <button class="button">Получить консультацию</button>
+        <!-- <div class="wrap"> -->
+        <!-- </div> -->
+      </form>
+      <span>Нажимая кнопку вы соглашаетесь на обработку персональных данных</span>
+    </div>
+  </section>
+  <!-- /.consultation-section -->
+
+  <section class="about-section">
+    <div class="container">
+      <h2 id="about">О компании</h2>
+      <div class="wrap">
+        <div class="content-about">
+          <h3 class="title">Миссия и цели</h3>
+          <p>Обеспечить население города Нягань бесперебойной эксплуатацией электроустановок с соблюдением нормативов 
+            и в поставленные сроки.</p>
+          <p>Продлить срок службы энергообъектов и уменьшить количество аварийных ситуаций.</p>
+        </div>
+        <div class="content-about">
+          <h3 class="title">Наши специалисты</h3>
+          <p>Профессиональная команда – это основа роста и дальнейшего развития компании. </p>
+          <p><strong>«ЮТЭК - Нягань»</strong> обеспечивает привлекательные условия труда для сотрудников и регулярно проводит обучение.</p>
+        </div>
+      </div>
+      <h2 id="contacts-title" class="contacts-title">Контакты</h2>
+      <div class="city-code">Код города Нягань +7 (34672)</div>
+      <div class="wrap">
+        <div class="content-contacts">
+          <h3 class="title">Директор</h3>
+          <p>Зюрин Геннадий Иванович</p>
+          <ul class="tel">
+            <li>6-10-00</li>
+          </ul>
+          <div class="mail">gizyurin@utek-n.ru</div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Заместитель директора</h3>
+          <p>Ахметханов Радик Рафикович</p>
+          <ul class="tel">
+            <li>6-10-00</li>
+          </ul>
+          <div class="mail">rrahmethanov@utek-n.ru</div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Секретарь -администратор</h3>
+          <p>Чеснокова Ирина Юрьевна</p>
+          <ul class="tel">
+            <li>6-10-00</li>
+          </ul>
+          <div class="mail">secretar@utek-n.ru</div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Главный инженер</h3>
+          <p>Авсянко Александр Николаевич</p>
+          <ul class="tel">
+            <li>6-40-13</li>
+          </ul>
+          <div class="mail">aan@utek-n.ru</div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Главный бухгалтер</h3>
+          <p>Смышляева  Ольга Борисовна</p>
+          <ul class="tel">
+            <li>6-40-12</li>
+            <li>5-02-62</li>
+          </ul>
+          <div class="mail">glbux@utek-n.ru</div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Начальник АПО</h3>
+          <p>Василенкова Нина Васильевна</p>
+          <ul class="tel">
+            <li>6-63-97</li>
+          </ul>
+          <div class="mail">zla@utek-n.ru</div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Специалист ОК</h3>
+          <p>Левина Оксана Вячеславовна</p>
+          <ul class="tel">
+            <li>6-40-21</li>
+          </ul>
+          <div class="mail">ok@utek-n.ru</div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Специалист по закупкам</h3>
+          <p>Землянская Венера Гумеровна</p>
+          <ul class="tel">
+            <li>6-63-97</li>
+          </ul>
+          <div class="mail">zakupki@utek-n.ru</div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Начальник технического отдела </h3>
+          <p>Авсянко Александр Николаевич</p>
+          <ul class="tel">
+            <li>6-40-13</li>
+          </ul>
+          <div class="mail">aan@utek-n.ru</div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Ведущий специалист ОТ</h3>
+          <p>Рашкова Лариса Григорьевна</p>
+          <ul class="tel">
+            <li>5-02-56</li>
+          </ul>
+          <div class="mail">rlg@utek-n.ru</div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Начальник  экономич-го отдела</h3>
+          <p>Дерина Светлана Михайловна</p>
+          <ul class="tel">
+            <li>6-40-21</li>
+          </ul>
+          <div class="mail"></div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Инженер-сметчик</h3>
+          <p>Макухина Олеся Ивановна</p>
+          <ul class="tel">
+            <li>5-02-61</li>
+          </ul>
+          <div class="mail">ilf@utek-n.ru</div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Механик транспортного цеха</h3>
+          <p>Журавлев Валерий Николаевич</p>
+          <ul class="tel">
+            <li>6-10-00</li>
+          </ul>
+          <div class="mail"></div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Инженер отдела автоматики</h3>
+          <p>Дурыманов Александр Сергеевич</p>
+          <ul class="tel">
+            <li>6-63-97</li>
+            <li>5-40-25</li>
+          </ul>
+          <div class="mail">durymanovas@utek-n.ru</div>
+        </div>
+        <div class="content-contacts">
+          <h3 class="title">Старший кладовщик</h3>
+          <p>Ануфриева Елена Николаевна</p>
+          <ul class="tel">
+            <li>6-41-99</li>
+          </ul>
+          <div class="mail"></div>
+        </div>
+        <a href="#contacts-title" class="show-more">Показать еще</a>
+      </div>
+    </div>
+    <!-- </div> -->
+    <!-- /.container -->
+  </section>
+  <!-- /.about-section -->
+
+  <section class="requisites-section">
+    <div class="container">
+      <h2>Реквизиты АО ЮТЭК-Нягань</h2>
+      <ul class="wrap">
+        <li class="item">
+          <ul>
+            <li class="name">Наименование юридического лица: </li>
+            <!-- /.name -->
+            <li class="description">Акционерное Общество "Югорская Территориальная Энергитическая Компания - Нягань"</li>
+            <!-- /.description -->
+          </ul>
+        </li>
+        <li class="item">
+          <ul>
+            <li class="name">Сокращенное наименование: </li>
+            <!-- /.name -->
+            <li class="description">АО «ЮТЭК-Нягань»</li>
+            <!-- /.description -->
+          </ul>
+        </li>
+        <li class="item">
+          <ul>
+            <li class="name">Почтовый адрес:</li>
+            <!-- /.name -->
+            <li class="description">628183, Тюменская область, Ханты-Мансийский автономный округ - Югра, г. Нягань, улица Лазарева, д. 19 А/Я 43</li>
+            <!-- /.description -->
+          </ul>
+        </li>
+        <li class="item">
+          <ul>
+            <li class="name">Юридический адрес:</li>
+            <!-- /.name -->
+            <li class="description">628181,  Тюменская область, Ханты-Мансийский автономный округ - Югра, г. Нягань, проспект Нефтяников 7, 9</li>
+            <!-- /.description -->
+          </ul>
+        </li>
+        <li class="item">
+          <ul>
+            <li class="name">Телефоны: </li>
+            <!-- /.name -->
+            <li class="description">8 (34672) 5-02-56</li>
+            <li class="description">8 (34672) 6-10-00</li>
+            <!-- /.description -->
+          </ul>
+        </li>
+        <li class="item">
+          <ul>
+            <li class="name">ИНН:</li>
+            <!-- /.name -->
+            <li class="description">8610015531</li>
+            <!-- /.description -->
+          </ul>
+        </li>
+        <li class="item">
+          <ul>
+            <li class="name">КПП: </li>
+            <!-- /.name -->
+            <li class="description">861001001</li>
+            <!-- /.description -->
+          </ul>
+        </li>
+        <li class="item">
+          <ul>
+            <li class="name">ОГРН:</li>
+            <!-- /.name -->
+            <li class="description">1048600201066</li>
+            <!-- /.description -->
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.requisites-section -->
+
+  <div class="container">
+    <div class="map"><script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae18625b0610abdae38d4371a3f36d6e74153898417bef4db8d8ffffe50b08f23&amp;width=100%25&amp;height=519&amp;lang=ru_RU&amp;scroll=false"></script></div>
+    <!-- /.map -->
+  </div>
+  <!-- /.container -->
+
+  <section class="form-section">
+    <div class="container">
+      <h2>С удовольствием ответим на ваши вопросы. Пишите</h2>
+      <div class="wrap">
+        <form action="#" class="footer-form">
+          <input type="text" name="name" placeholder="Ваше имя">
+          <input type="text" name="tel" id="footer-phone" placeholder="Номер телефона">
+          <textarea name="text" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
+          <!-- /#.text -->
+          <button class="button">Отправить вопрос</button>
+          <!-- /.button -->
+          <span>Нажимая кнопку вы соглашаетесь на обработку персональных данных</span>
+        </form>
+        <!-- /.footer-form -->
+        <div class="box-image">
+          <!-- <img src="img/form-image.jpg" alt="form-image" class="footer-image"> -->
+        </div>
+      </div>
+      <!-- /.wrap -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.form-section -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="nav">
+        <div class="nav-wrap">
+          <div class="logo-wrap">
+            <div class="name">АО «Ютэк-Нягань»</div>
+            <span>Энергетическая компания</span>
+          </div>
+          <!-- /.logo-wrap -->
+          <div class="top-menu">
+            <ul>
+              <li><a class="menu" href="index.html">Главная</a></li>
+              <li><a class="menu" href="#services">Услуги</a></li>
+              <li><a class="menu" href="#about">О компании</a></li>
+              <li><a class="menu" href="#contacts-title">Контакты</a></li>
+              <li><a href="materials.html">Скачать документы</a></li>
+            </ul>
+          </div>
+          <!-- /.top-menu -->
+          <div class="contacts">
+            <a href="tel:+73467261000">+7 (34672) 6-10-00</a>
+            <div class="border-btn">Заказать звонок</div>
+          </div>
+          <!-- /.contacts -->        
+        </div>
+        <!-- /.nav-wrap -->
+      </div>
+      <!-- /.nav -->
+      <div class="agreement">
+            <ul>
+              <li><a target="_blank" href="agreement.html">Пользовательское соглашение</a></li>
+              <li><a target="_blank" href="policy.html">Политика конфиденциальности</a></li>
+            </ul>
+            <a target="_blank" href="https://vk.com/id25829595">Разработка сайта: Дронов Михаил</a>
+      </div>
+      <!-- /.agreement -->
+
+    </div>
+    <!-- /.container -->
+  </footer>
+  <!-- /.footer -->
+
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
